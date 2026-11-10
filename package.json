@@ -1,0 +1,33 @@
+{
+    "$schema": "https://www.schemastore.org/package.json",
+    "name": "facematch",
+    "description": "Assets de la interfaz y motor facial local (face-api + TensorFlow.js WASM) de FaceMatch",
+    "license": "MIT",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite",
+        "face-service": "node scripts/face-engine.cjs --serve"
+    },
+    "devDependencies": {
+        "@popperjs/core": "^2.11.8",
+        "bootstrap": "^5.3.8",
+        "bootstrap-icons": "^1.13.2",
+        "concurrently": "^10.0.3",
+        "laravel-vite-plugin": "^3.1",
+        "vite": "^8.0.0"
+    },
+    "optionalDependencies": {
+        "@laravel/multiplex": "^0.4.1"
+    },
+    "dependencies": {
+        "@tensorflow/tfjs": "^4.22.0",
+        "@tensorflow/tfjs-backend-wasm": "^4.22.0",
+        "@vladmandic/face-api": "^1.7.15",
+        "sharp": "^0.35.5"
+    },
+    "engines": {
+        "node": ">=18"
+    }
+}
