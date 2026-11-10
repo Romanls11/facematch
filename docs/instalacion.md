@@ -6,7 +6,7 @@ Guía paso a paso para tener FaceMatch funcionando en tu equipo. Para un servido
 
 | Herramienta | Versión | Notas |
 |---|---|---|
-| PHP | **8.3 o superior** | Extensiones: `pdo_pgsql`, `mbstring`, `openssl`, `curl`, `fileinfo`, `gd`, `intl`, `zip` |
+| PHP | **8.4 o superior** | Extensiones: `pdo_pgsql`, `mbstring`, `openssl`, `curl`, `fileinfo`, `gd`, `intl`, `zip` |
 | Composer | 2.x | |
 | Node.js | **18 o superior** | Probado con 22 y 24. Ejecuta el motor facial local |
 | PostgreSQL | 14 o superior | Probado con 18 |

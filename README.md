@@ -5,7 +5,7 @@
 Funciona **gratis y sin conexión** con un motor local basado en [face-api](https://github.com/vladmandic/face-api) y TensorFlow.js, o con **Amazon Rekognition** si lo prefieres.
 
 [![Pruebas](https://github.com/Romanls11/facematch/actions/workflows/tests.yml/badge.svg)](https://github.com/Romanls11/facematch/actions/workflows/tests.yml)
-![PHP](https://img.shields.io/badge/PHP-8.3%2B-777BB4?logo=php&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-8.4%2B-777BB4?logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-13-FF2D20?logo=laravel&logoColor=white)
 ![Node](https://img.shields.io/badge/Node-18%2B-339933?logo=node.js&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14%2B-4169E1?logo=postgresql&logoColor=white)
@@ -37,7 +37,7 @@ Las fotos de ejemplo son retratos oficiales de dominio público ([ver origen](te
 
 ## Inicio rápido
 
-Requisitos: PHP 8.3+ (con `pdo_pgsql`), Composer, Node 18+ y PostgreSQL 14+.
+Requisitos: PHP 8.4+ (con `pdo_pgsql`), Composer, Node 18+ y PostgreSQL 14+.
 
 ```bash
 git clone https://github.com/Romanls11/facematch.git
