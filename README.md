@@ -1,4 +1,4 @@
-    # FaceMatch
+# FaceMatch
 
 **Comparación y verificación facial autoalojada, con Laravel.** Sube dos fotos y FaceMatch te dice si son de la misma persona, con qué similitud y, en el modo Verificar, si cada foto tiene calidad suficiente (rostro único, nitidez, brillo, pose, ojos abiertos). El resultado puede enviarse automáticamente, junto con ambas imágenes, a otro sistema.
 
